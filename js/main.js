@@ -14,6 +14,3 @@ function oneArg(arg) {
 
 console.log(oneArg(firstVariable));
 console.log(oneArg(secondVariable));
-
-let a = 'ну как тебя сука сделать';
-console.log(a.slice(0, 11) + '...');
