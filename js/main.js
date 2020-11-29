@@ -23,3 +23,15 @@ arr2.forEach(function(item) {
 
 // Задание 2
 
+let a = 100;
+
+primeNumber:
+for (let i = 2; i <= a; i++) {
+  for (let j = 2; j < i; j++) {
+    if (i % j === 0) {
+      continue primeNumber;
+    }
+  }
+  console.log(i + ` Делители этого числа: 1 и ${i}`);
+}
+
