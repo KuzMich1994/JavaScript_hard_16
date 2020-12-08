@@ -4,8 +4,8 @@ canvas = document.querySelector('.canvas'),
 randomTextColor = document.querySelector('.random-text-color'),
 getRandom = function() {
   let randomColor = '#' + (Math.random().toString(16)).substring(2, 8).toUpperCase();
-  randomColor = canvas.style.backgroundColor = `${randomColor}`;
-  randomColor = randomTextColor.textContent = randomColor;
+  canvas.style.backgroundColor = `${randomColor}`;
+  randomTextColor.textContent = randomColor;
 };
 
 randomButton.addEventListener('click', function() {
